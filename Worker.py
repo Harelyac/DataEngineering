@@ -1,9 +1,8 @@
 import pandas as pd
-import json
 import pika
-import threading
 from dbHandler import *
 
+# creates connection to the task queue
 connection = pika.BlockingConnection(
 pika.ConnectionParameters(host='localhost'))
 channel = connection.channel()
@@ -24,15 +23,22 @@ def parsing_json(file_path, conn):
 
 
 def finishing(method, year):
+    """
+    after work is done by the process worker, it sends signal to another queue,
+    later on for the displayer process to checkout
+    :param method:
+    :param year: the given year invoice the was completed
+    :return:
+    """
     message = "completed|" + year
 
-    # here we create another second connection to another queue
+    # here we create another second connection to the ack queue
     connection = pika.BlockingConnection(
         pika.ConnectionParameters(host='localhost'))
     channel = connection.channel()
     channel.queue_declare(queue='complete_queue', durable=True)
 
-    # send message in another queue
+    # send message into the ack queue
     channel.basic_publish(exchange='',
                           routing_key='complete_queue',
                           body=message,
@@ -42,6 +48,14 @@ def finishing(method, year):
 
 
 def callback(ch, method, properties, body):
+    """
+    function get called when a new task was given to worker from the queue
+    :param ch: the channel the worker is working on
+    :param method:
+    :param properties:
+    :param body: the task itself
+    :return: complete the task, and send ack message to rabbit to delete the task completely
+    """
     parts = str(body, 'utf-8').split("|")
 
     # connect to db and creating table if not exist
@@ -89,7 +103,7 @@ channel.basic_qos(prefetch_count=1)
 # define consume
 channel.basic_consume(queue='task_queue', on_message_callback=callback)
 
-# start consuming any message you get from rabbit
+# start consuming any message coming from rabbit
 channel.start_consuming()
 
 

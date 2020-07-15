@@ -1,6 +1,4 @@
 import pika
-
-import threading
 from dbHandler import *
 import matplotlib.pyplot as plt
 import numpy as np
@@ -15,6 +13,15 @@ print(' [*] Waiting for messages. To exit press CTRL+C')
 
 
 def callback(ch, method, properties, body):
+    """
+    function get called whenever an ack message is received on the completion queue,
+    fetching info from data base based on YEAR of file being complete
+    :param ch:
+    :param method:
+    :param properties:
+    :param body:
+    :return:
+    """
     parts = str(body, 'utf-8').split("|")
 
     db_path = 'invoices.sqlite'
@@ -24,11 +31,15 @@ def callback(ch, method, properties, body):
     db = dbHandler(db_path)
     conn = db.connect()
     result = db.select(query)
-    sales, active_customers = zip(*result)
+    sales, active_customers = zip(*result) # unzipping the tuples into two lists
 
     time = np.linspace(1, 12, 12)
-    plt.plot(time, sales, time, active_customers)
-    plt.title(parts[1])
+    plt.plot(time, sales, 'o-', color="red", label="Sales")
+    plt.plot(time, active_customers, 'o-', color="red", label="Active Customers")
+    plt.grid(True)
+    plt.xlabel('Year (months)', fontsize=14)
+    plt.legend()
+    plt.title(parts[1] + " invoices", fontsize=16)
     print(parts[1])
     plt.show()
 

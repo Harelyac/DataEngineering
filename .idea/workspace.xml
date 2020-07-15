@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53f6b4b9-6971-4074-9a0d-f3e98866f924" name="Default Changelist" comment="" />
+    <list default="true" id="53f6b4b9-6971-4074-9a0d-f3e98866f924" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Displayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Displayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoices.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/invoices.sqlite" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +43,11 @@
     </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1efaywxNcGGcUyqQw6m6nR0w5gx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,11 +56,12 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite.xerial&#10;sqlite" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Publisher">
+  <component name="RunManager" selected="Python.Worker">
     <configuration name="Displayer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="challenge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,9 +158,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Worker" />
         <item itemvalue="Python.Publisher" />
         <item itemvalue="Python.Displayer" />
-        <item itemvalue="Python.Worker" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +196,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594715358351</updated>
-      <workItem from="1594715398978" duration="13340000" />
+      <workItem from="1594715398978" duration="17142000" />
     </task>
     <servers />
   </component>
@@ -205,22 +216,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="565" y="157" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1594718603426" />
-    <state width="1237" height="317" key="GridCell.Tab.0.bottom" timestamp="1594734341595">
+    <state width="1237" height="317" key="GridCell.Tab.0.bottom" timestamp="1594804413380">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1594734341595" />
-    <state width="1237" height="317" key="GridCell.Tab.0.center" timestamp="1594734341595">
+    <state width="1237" height="317" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1594804413380" />
+    <state width="1237" height="317" key="GridCell.Tab.0.center" timestamp="1594804413380">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1594734341595" />
-    <state width="1237" height="317" key="GridCell.Tab.0.left" timestamp="1594734341595">
+    <state width="1237" height="317" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1594804413380" />
+    <state width="1237" height="317" key="GridCell.Tab.0.left" timestamp="1594804413380">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1594734341595" />
-    <state width="1237" height="317" key="GridCell.Tab.0.right" timestamp="1594734341595">
+    <state width="1237" height="317" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1594804413380" />
+    <state width="1237" height="317" key="GridCell.Tab.0.right" timestamp="1594804413380">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1594734341595" />
+    <state width="1237" height="317" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1594804413380" />
     <state width="1237" height="246" key="GridCell.Tab.1.bottom" timestamp="1594734320480">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -245,10 +256,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="143" y="137" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1594716030702" />
-    <state x="533" y="385" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1594733973197">
+    <state x="533" y="385" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1594804426506">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="533" y="385" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.984@0.0.1280.984" timestamp="1594733973197" />
+    <state x="533" y="385" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.984@0.0.1280.984" timestamp="1594804426506" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -262,8 +273,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/challenge$Publisher.coverage" NAME="Publisher Coverage Results" MODIFIED="1594734043784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/challenge$Worker.coverage" NAME="Worker Coverage Results" MODIFIED="1594734025315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/challenge$Displayer.coverage" NAME="Displayer Coverage Results" MODIFIED="1594734038691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/challenge$Publisher.coverage" NAME="Publisher Coverage Results" MODIFIED="1594804074466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/challenge$Worker.coverage" NAME="Worker Coverage Results" MODIFIED="1594804413380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/challenge$Displayer.coverage" NAME="Displayer Coverage Results" MODIFIED="1594804017947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
