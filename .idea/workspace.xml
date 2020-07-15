@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f6b4b9-6971-4074-9a0d-f3e98866f924" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Displayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Displayer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Worker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/invoices.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/invoices.sqlite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594715358351</updated>
-      <workItem from="1594715398978" duration="17142000" />
+      <workItem from="1594715398978" duration="18870000" />
     </task>
     <servers />
   </component>
@@ -216,22 +214,22 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="565" y="157" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1594718603426" />
-    <state width="1237" height="317" key="GridCell.Tab.0.bottom" timestamp="1594804413380">
+    <state width="1237" height="317" key="GridCell.Tab.0.bottom" timestamp="1594822206386">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1594804413380" />
-    <state width="1237" height="317" key="GridCell.Tab.0.center" timestamp="1594804413380">
+    <state width="1237" height="317" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1594822206386" />
+    <state width="1237" height="317" key="GridCell.Tab.0.center" timestamp="1594822206385">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1594804413380" />
-    <state width="1237" height="317" key="GridCell.Tab.0.left" timestamp="1594804413380">
+    <state width="1237" height="317" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1594822206385" />
+    <state width="1237" height="317" key="GridCell.Tab.0.left" timestamp="1594822206385">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1594804413380" />
-    <state width="1237" height="317" key="GridCell.Tab.0.right" timestamp="1594804413380">
+    <state width="1237" height="317" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1594822206385" />
+    <state width="1237" height="317" key="GridCell.Tab.0.right" timestamp="1594822206385">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1594804413380" />
+    <state width="1237" height="317" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1594822206385" />
     <state width="1237" height="246" key="GridCell.Tab.1.bottom" timestamp="1594734320480">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -256,10 +254,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="143" y="137" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1594716030702" />
-    <state x="533" y="385" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1594804426506">
+    <state x="533" y="385" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1594822199327">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="533" y="385" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.984@0.0.1280.984" timestamp="1594804426506" />
+    <state x="533" y="385" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.984@0.0.1280.984" timestamp="1594822199327" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -273,8 +271,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/challenge$Publisher.coverage" NAME="Publisher Coverage Results" MODIFIED="1594804074466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/challenge$Worker.coverage" NAME="Worker Coverage Results" MODIFIED="1594804413380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/challenge$Displayer.coverage" NAME="Displayer Coverage Results" MODIFIED="1594804017947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/challenge$Publisher.coverage" NAME="Publisher Coverage Results" MODIFIED="1594822182243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/challenge$Worker.coverage" NAME="Worker Coverage Results" MODIFIED="1594822206380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/challenge$Displayer.coverage" NAME="Displayer Coverage Results" MODIFIED="1594822176215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

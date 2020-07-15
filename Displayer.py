@@ -35,7 +35,7 @@ def callback(ch, method, properties, body):
 
     time = np.linspace(1, 12, 12)
     plt.plot(time, sales, 'o-', color="red", label="Sales")
-    plt.plot(time, active_customers, 'o-', color="red", label="Active Customers")
+    plt.plot(time, active_customers, 'o-', color="blue", label="Active Customers")
     plt.grid(True)
     plt.xlabel('Year (months)', fontsize=14)
     plt.legend()
